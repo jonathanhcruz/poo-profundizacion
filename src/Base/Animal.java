@@ -9,7 +9,8 @@ public abstract class Animal {
     this.edad = edad;
   }
 
-  public abstract void hacerSonido(); // Polimorfismo (método sobrescrito)
+  // Polimorfismo al redefinir el método en las subclases
+  public abstract void hacerSonido();
 
   public void moverse() {
     System.out.println(nombre + " se está moviendo.");
